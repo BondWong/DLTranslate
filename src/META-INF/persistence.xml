@@ -1,0 +1,41 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+	<persistence-unit name="DLT" transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>model.News</class>
+		<class>model.Paragraph</class>
+		<class>model.Comment</class>
+		<class>model.Message</class>
+		<shared-cache-mode>DISABLE_SELECTIVE</shared-cache-mode>
+		<validation-mode>AUTO</validation-mode>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dltranslate" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="BM1003mb" />
+
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
+
+			<property name="hibernate.connection.provider_class"
+				value="org.hibernate.connection.C3P0ConnectionProvider" />
+			<property name="hibernate.c3p0.max_size" value="50" />
+			<property name="hibernate.c3p0.min_size" value="10" />
+			<property name="hibernate.c3p0.max_statements" value="0" />
+			<property name="hibernate.c3p0.acquire_increment" value="5" />
+			<property name="hibernate.c3p0.timeout" value="400" />
+			<property name="hibernate.c3p0.unreturnedConnectionTimeout"
+				value="350" />
+			<property name="hibernate.c3p0.debugUnreturnedConnectionStackTraces"
+				value="true" />
+
+		</properties>
+	</persistence-unit>
+
+</persistence>
