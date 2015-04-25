@@ -48,9 +48,16 @@
 				<div id="leftcol" class="span8">
 					<article class="post">
 					<div class="post_content">
-						<figure> <img alt="0"
-							src="images/uploadedImages/${requestScope.news.imageLinks[0] }" />
+
+						<figure>
+						<div class="slider">
+							<c:forEach var="imageLink"
+								items="${requestScope.news.imageLinks }">
+								<img src="images/uploadedImages/${imageLink}" />
+							</c:forEach>
+						</div>
 						</figure>
+
 						<c:forEach var="paragraph"
 							items="${requestScope.news.paragraphs }">
 							<c:choose>
@@ -127,6 +134,17 @@
 		<%@ include file="parts/footer.jsp"%>
 	</div>
 	<%@ include file="parts/footCommonPart.jsp"%>
+	<script src="js/sss.min.js"></script>
+	<script>
+		$('.slider').sss({
+			slideShow : true, // Set to false to prevent SSS from automatically animating.
+			startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+			transition : 400, // Length (in milliseconds) of the fade transition.
+			speed : 3500, // Slideshow speed in milliseconds.
+			showNav : true
+		// Set to false to hide navigation arrows.
+		});
+	</script>
 	<script type="text/javascript">
 		$("#comment_form").submit(function(event) {
 			event.preventDefault();
