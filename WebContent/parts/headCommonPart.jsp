@@ -16,9 +16,6 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="HWStyle.css" rel="stylesheet" type="text/css" />
 <link type="text/css" rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="css/default.css">
-<link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
 <link rel="stylesheet"
 	href="fonts/font-awesome/css/font-awesome.min.css" media="screen" />
 <link rel="stylesheet"
