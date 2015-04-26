@@ -37,7 +37,7 @@ public class TestDataCreator implements ServletContextListener {
 		param.put("name", "劉威雄");
 		param.put("email", "email");
 		param.put("topic", "叼你");
-		param.put("content", "叼你");
+		param.put("message", "叼你");
 		Transaction transaction = new CreateMessageTransaction();
 		try {
 			for (int i = 0; i < 10; i++)
