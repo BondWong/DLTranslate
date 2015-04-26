@@ -61,7 +61,6 @@
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <head>
-
 <%@ include file="parts/headCommonPart.jsp"%>
 </head>
 <body>

@@ -8,8 +8,8 @@
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <head>
-
 <%@ include file="parts/headCommonPart.jsp"%>
+</head>
 <body class="collapsing_header">
 	<%@ include file="parts/header.jsp"%>
 	<div class="full_page_photo">

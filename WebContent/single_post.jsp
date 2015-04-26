@@ -23,8 +23,10 @@
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <head>
-
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
 <%@ include file="parts/headCommonPart.jsp"%>
+</head>
 <body>
 	<%@ include file="parts/header.jsp"%>
 	<div id="main">

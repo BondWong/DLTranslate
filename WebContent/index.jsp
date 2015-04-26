@@ -10,9 +10,6 @@
 
 <%@ include file="parts/headCommonPart.jsp"%>
 <!-- start plugins -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 	<%@ include file="parts/header.jsp"%>

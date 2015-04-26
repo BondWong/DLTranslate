@@ -8,8 +8,8 @@
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <head>
-
 <%@ include file="parts/headCommonPart.jsp"%>
+</head>
 <body>
 	<%@ include file="parts/header.jsp"%>
 	<div id="main">
