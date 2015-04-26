@@ -48,7 +48,6 @@ public class News extends Model {
 		// TODO Auto-generated method stub
 		this.ID = System.currentTimeMillis() + "";
 		this.title = (String) parameters.get("title");
-		this.enabled = true;
 		publishDate = new Date();
 		publishTime = new Date();
 		imageLinks = new ArrayList<>();

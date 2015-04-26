@@ -16,6 +16,10 @@ public abstract class Model {
 	@Version
 	private int version;
 	protected boolean enabled;
+	
+	public Model() {
+		this.enabled = true;
+	}
 
 	public abstract void init(Map<String, Object> parameters);
 

@@ -22,7 +22,6 @@ public class Paragraph extends Model {
 		this.content = (String) parameters.get("content");
 		this.isImportant = Boolean.parseBoolean((String) parameters
 				.get("isImportant"));
-		this.enabled = true;
 	}
 
 	public String getContent() {
