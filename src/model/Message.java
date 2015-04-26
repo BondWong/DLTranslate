@@ -15,7 +15,7 @@ import javax.persistence.TemporalType;
 
 @Entity
 @Access(AccessType.FIELD)
-@NamedQueries(value = { @NamedQuery(name = "Message.fetchTuples", query = "SELECT m.submittedDate, m.topic FROM Message m WHERE m.enabled = 1") })
+@NamedQueries(value = { @NamedQuery(name = "Message.fetchTuples", query = "SELECT m.submittedDate, m FROM Message m WHERE m.enabled = 1") })
 public class Message extends Model {
 	private String name;
 	private String email;

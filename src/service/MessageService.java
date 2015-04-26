@@ -71,16 +71,19 @@ public class MessageService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response fetchTuples() throws Exception {
 		transaction = new FetchMessageTuplesTransaction();
-		Map<Date, List<String>> results;
+		Map<Date, List<Map<String, Object>>> results;
 		try {
-			results = (Map<Date, List<String>>) transaction.execute(null);
+			results = (Map<Date, List<Map<String, Object>>>) transaction
+					.execute(null);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			throw e;
 		}
-		return Response.ok(new GenericEntity<Map<Date, List<String>>>(results) {
-		}).build();
+		return Response
+				.ok(new GenericEntity<Map<Date, List<Map<String, Object>>>>(
+						results) {
+				}).build();
 	}
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
