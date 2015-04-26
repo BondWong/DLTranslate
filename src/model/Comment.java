@@ -35,7 +35,6 @@ public class Comment extends Model {
 		publishDate = new Date();
 		content = (String) parameters.get("content");
 		replies = new ArrayList<>();
-		this.enabled = true;
 	}
 
 	public void addReply(Comment comment) {

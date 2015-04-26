@@ -379,6 +379,9 @@
 						</div>
 					</div>
 				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-success" data-dismiss="modal">确定</button>
+				</div>
 			</div>
 		</div>
 		<!-- /.modal-content -->
