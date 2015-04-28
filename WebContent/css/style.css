@@ -9,7 +9,9 @@
 a,img {
 	border: 0;
 }
-
+.logo_title {
+	padding: 20px 0 0px 0 !important;
+}
 .button_box {
 	width: 902px;
 	margin: 40px auto 0 auto;
