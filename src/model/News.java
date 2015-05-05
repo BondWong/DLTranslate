@@ -36,9 +36,8 @@ public class News extends Model {
 	private Date publishDate;
 	@Temporal(TemporalType.TIME)
 	private Date publishTime;
-	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
-	@OrderColumn
-	private List<Paragraph> paragraphs;
+	@Lob
+	private String content;
 	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
 	@OrderColumn
 	private List<Comment> comments;
@@ -48,10 +47,10 @@ public class News extends Model {
 		// TODO Auto-generated method stub
 		this.ID = System.currentTimeMillis() + "";
 		this.title = (String) parameters.get("title");
+		this.content = (String) parameters.get("content");
 		publishDate = new Date();
 		publishTime = new Date();
 		imageLinks = new ArrayList<>();
-		paragraphs = new ArrayList<>();
 		comments = new ArrayList<>();
 	}
 
@@ -85,16 +84,12 @@ public class News extends Model {
 		this.imageLinks.clear();
 	}
 
-	public void addParagraph(Paragraph parageph) {
-		this.paragraphs.add(parageph);
+	public String getContent() {
+		return this.content;
 	}
 
-	public void removeParagraph(Paragraph parageph) {
-		this.paragraphs.remove(parageph);
-	}
-
-	public void clearParagraphs() {
-		this.paragraphs.clear();
+	public void setContent(String content) {
+		this.content = content;
 	}
 
 	public void addComment(Comment comment) {
@@ -132,11 +127,8 @@ public class News extends Model {
 		representation.put("publishDate", this.publishDate);
 		representation.put("publishTime", this.publishTime);
 		representation.put("commentQuantity", comments.size());
-		List<Map<String, Object>> paragraphs = new ArrayList<>();
+		representation.put("content", this.content);
 
-		for (Paragraph paragraph : this.paragraphs)
-			paragraphs.add(paragraph.toRepresentation());
-		representation.put("paragraphs", paragraphs);
 		List<Map<String, Object>> comments = new ArrayList<>();
 		for (Comment comment : this.comments)
 			comments.add(comment.toRepresentation());
@@ -149,8 +141,6 @@ public class News extends Model {
 	public void delete() {
 		// TODO Auto-generated method stub
 		this.enabled = false;
-		for (Paragraph p : this.paragraphs)
-			p.delete();
 
 		for (Comment comment : this.comments)
 			comment.delete();
