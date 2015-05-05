@@ -62,14 +62,14 @@
 			<section id="features_teasers_wrapper">
 				<div class="row">
 					<div class="span4 feature_teaser">
-						<img alt="responsive" src="images/brands/written.jpg" />
+						<img alt="responsive" src="images/brands/written.png" />
 						<h3>笔译</h3>
 						<p>
 							<strong>各领域技术资料、商务资料、文学作品等</strong>
 						</p>
 					</div>
 					<div class="span4 feature_teaser">
-						<img alt="responsive" src="images//brands/oral.jpg" />
+						<img alt="responsive" src="images//brands/oral.png" />
 						<h3>口译</h3>
 						<p>
 							<strong>各类型会议、日常陪同、商务谈判等</strong>

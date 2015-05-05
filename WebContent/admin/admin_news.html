@@ -9,7 +9,6 @@ body {
 }
 -->
 </style>
-
 <link href="images/skin.css" rel="stylesheet" type="text/css" />
 <body>
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -17,7 +16,7 @@ body {
     <td width="17" height="29" valign="top" background="images/mail_leftbg.gif"><img src="images/left-top-right.gif" width="17" height="29" /></td>
     <td width="935" height="29" valign="top" background="images/content-bg.gif"><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
       <tr>
-        <td height="31"><div class="titlebt">��������</div></td>
+        <td height="31"><div class="titlebt">增加新闻</div></td>
       </tr>
     </table></td>
     <td width="16" valign="top" background="images/mail_rightbg.gif"><img src="images/nav-right-bg.gif" width="16" height="29" /></td>
@@ -31,7 +30,7 @@ body {
       <tr>
         <td valign="top"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
           <tr>
-            <td class="left_txt">��ǰλ�ã���������</td>
+            <td class="left_txt">当前位置：增加新闻</td>
           </tr>
           <tr>
             <td height="20"><table width="100%" height="1" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
@@ -45,7 +44,7 @@ body {
             <td><table width="100%" height="55" border="0" cellpadding="0" cellspacing="0">
               <tr>
                 <td width="10%" height="55" valign="middle"><img src="images/title.gif" width="54" height="55"></td>
-                <td width="90%" valign="top"><span class="left_txt2">����������������˾��վ���������Ϣ</span><span class="left_txt2"> </span></td>
+                <td width="90%" valign="top"><span class="left_txt2">在这里，您可以增加您公司网站里的新闻信息</span><span class="left_txt2"> </span></td>
               </tr>
             </table>
             </td>
@@ -56,27 +55,27 @@ body {
       <tr>
             <td><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="nowtable" >
               <tr>
-                <td width="100%" class="left_bt2">&nbsp;&nbsp;&nbsp;�������</td>
+                <td width="100%" class="left_bt2">&nbsp;&nbsp;&nbsp;新闻添加</td>
               </tr>
               <tr class="left_bt4">
-                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<label for="file">���ű���:</label>
-                  <input type="text" width="300" name="A11"></td>
+                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<label for="file">新闻标题:</label>
+                  <input class="newstitle" type="text" width="300" name="A11"></td>
               </tr>
               <tr class="left_bt4">
-                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<label for="file">ѡ��ͼƬ:</label>
-                  <input type="file" width="100" name="A12"></td>
+                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<label for="file">选择图片:</label>
+                  <input class="newsIm" type="file" width="100" name="A12"></td>
               </tr>
               <tr>
-                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<label for="text">�����ı�����:</label></td>
+                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<label for="text">中文文本介绍:</label></td>
               </tr>
               <tr>
-                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<textarea cols="150" rows="7" name="A13"></textarea></td>
+                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<textarea class="chinT" cols="100" rows="7" name="A13"></textarea></td>
               </tr>
               <tr>
-                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<label for="text">Ӣ���ı�����:</label></td>
+                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<label for="text">英文文本介绍:</label></td>
               </tr>
               <tr>
-                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<textarea cols="150" rows="7" name="A13"></textarea></td>
+                <td class="left_bt3">&nbsp;&nbsp;&nbsp;<textarea class="engT" cols="100" rows="7" name="A13"></textarea></td>
               </tr>
             </table
             ></td>
@@ -87,8 +86,8 @@ body {
         <table width="100%" border="0" cellspacing="0" cellpadding="0">         
             <tr></tr>
             <tr>
-              <td width="50%" height="30" colspan="2" align="center"><input type="submit" value="ȷ�����" name="B1" /> &nbsp;&nbsp;
-              <input type="reset" value="ȡ�����" name="B12" /></td>
+              <td width="50%" height="30" colspan="2" align="center"><input class="addnews" type="button" value="确定添加" name="B1" /> &nbsp;&nbsp;
+              <input type="reset" value="取消添加" name="B12" /></td>
 
             </tr>
             <tr>
@@ -107,6 +106,7 @@ body {
     <td background="images/mail_rightbg.gif"><img src="images/buttom_right2.gif" width="16" height="17" /></td>
   </tr>
 </table>
-<script type="text/javascript" src="../js/jquery.min.js"></script>
-<script type="text/javascript" src="js/manage.js"></script>
+<script src="js/manage.js"></script>
+<script src="js/function.js"></script>
+<script src="js/jquery-1.10.2.js"></script>
 </body>
