@@ -23,7 +23,7 @@ import javax.persistence.TemporalType;
 @Entity
 @Access(AccessType.FIELD)
 @NamedQueries(value = {
-		@NamedQuery(name = "News.fetchTuples", query = "SELECT n.publishDate, n.title FROM News n WHERE n.enabled = 1"),
+		@NamedQuery(name = "News.fetchTuples", query = "SELECT n.publishDate, n.title, n.ID FROM News n WHERE n.enabled = 1"),
 		@NamedQuery(name = "News.fetch", query = "SELECT n FROM News n WHERE n.enabled = 1"),
 		@NamedQuery(name = "News.fetchByDate", query = "SELECT n FROM News n WHERE n.enabled = 1 AND n.publishDate = ?1") })
 public class News extends Model {
