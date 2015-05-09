@@ -16,13 +16,13 @@ public class FetchNewsTuplesTransaction extends DAOTransaction {
 	protected Object process(DAO dao, Map param) throws Exception {
 		// TODO Auto-generated method stub
 		List<Object[]> tuples = dao.attributeTuplesRead("News.fetchTuples");
-		Map<Date, List<String>> results = new HashMap<>();
+		Map<Date, List<Object[]>> results = new HashMap<>();
 		for (Object[] tuple : tuples) {
 			if (!results.containsKey(tuple[0])) {
-				List<String> titles = new ArrayList<>();
-				results.put((Date) tuple[0], titles);
+				List<Object[]> t = new ArrayList<>();
+				results.put((Date) tuple[0], t);
 			}
-			results.get(tuple[0]).add((String) tuple[1]);
+			results.get(tuple[0]).add(tuple);
 		}
 		return results;
 	}

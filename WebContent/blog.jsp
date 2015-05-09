@@ -8,7 +8,7 @@
 <%@ page import="transaction.read.FetchNewsTuplesTransaction"%>
 <%
 	Transaction transaction = new FetchNewsTuplesTransaction();
-	Map<Date, List<String>> tuples = (Map<Date, List<String>>) transaction
+	Map<Date, List<Object[]>> tuples = (Map<Date, List<Object[]>>) transaction
 	.execute(null);
 
 	int pages = 0;
