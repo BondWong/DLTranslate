@@ -74,15 +74,15 @@ public class NewsService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response fetchTuples() throws Exception {
 		transaction = new FetchNewsTuplesTransaction();
-		Map<Date, List<String>> results;
+		Map<Date, List<Object[]>> results;
 		try {
-			results = (Map<Date, List<String>>) transaction.execute(null);
+			results = (Map<Date, List<Object[]>>) transaction.execute(null);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			throw e;
 		}
-		return Response.ok(new GenericEntity<Map<Date, List<String>>>(results) {
+		return Response.ok(new GenericEntity<Map<Date, List<Object[]>>>(results) {
 		}).build();
 	}
 
