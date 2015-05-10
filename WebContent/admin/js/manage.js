@@ -41,12 +41,9 @@ function addNews(formData) {
 		data : formData,
 		async : false,
 		success : function(data,status) {
-			response = "200";
+			alert("添加成功");
 		},
-		cache : false,
-		contentType : false,
-		processData : false
-
+		contentType : "application/json"
 	});
 	return response;
 }
@@ -77,4 +74,23 @@ function DeleteMessage(postID) {
 		}
 	});
 	return response;
+}
+function FileUpload(formData) {
+	var fileDri = [];
+	$.ajax({
+		type : "POST",
+		url : '../DLT/uploadImage',
+		data : formData,
+		async : false,
+		success : function(data) {
+			for (var i = 0; i < data.length; i++) {
+				var dataString = data[i];
+				fileDri.push(dataString);
+			}
+		},
+		cache : false,
+		contentType : false,
+		processData : false
+	});
+	return fileDri;
 }
