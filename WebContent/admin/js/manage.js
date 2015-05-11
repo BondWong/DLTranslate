@@ -51,9 +51,10 @@ function DeleteNews(postID) {
 	var response = "";
 	$.ajax({
 		type : "PUT",
-		url : '../DLT/news/create' + postID,
+		url : '../DLT/news/delete/' + postID,
 		success : function(data, status) {
 			response = status;
+			location.reload();
 		},
 		error : function(data, status) {
 			response = status;
@@ -68,10 +69,13 @@ function DeleteMessage(postID) {
 		url : '../DLT/message/create' + postID,
 		success : function(data, status) {
 			response = status;
+			location.reload();
+			alert("删除成功");
 		},
 		error : function(data, status) {
 			response = status;
 		}
+		
 	});
 	return response;
 }
