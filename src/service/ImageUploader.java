@@ -2,6 +2,7 @@ package service;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URLEncoder;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -95,6 +96,7 @@ public class ImageUploader extends HttpServlet {
 			Files.createDirectory(Paths.get(root));
 	}
 
+	@SuppressWarnings("deprecation")
 	private List<String> process(HttpServletRequest request)
 			throws FileUploadException,
 			FileUploadBase.FileSizeLimitExceededException, Exception {
@@ -104,12 +106,13 @@ public class ImageUploader extends HttpServlet {
 
 		while (iter.hasNext()) {
 			FileItem item = iter.next();
-			if (item.getName().equals("")) {
+			if (item.getName() == null || item.getName().equals("")) {
 				links.add("");
 			} else {
-				File uploaddedFile = new File(root + item.getName());
+				String name = URLEncoder.encode(item.getName());
+				File uploaddedFile = new File(root + name);
 				item.write(uploaddedFile);
-				links.add(root + item.getName());
+				links.add(root + name);
 			}
 		}
 
