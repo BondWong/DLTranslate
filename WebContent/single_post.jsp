@@ -13,7 +13,6 @@
 	Map<String, Object> news = (Map<String, Object>) transaction
 	.execute(param);
 	request.setAttribute("news", news);
-	System.out.println(news);
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->

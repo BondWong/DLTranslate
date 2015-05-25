@@ -82,8 +82,9 @@ public class NewsService {
 			e.printStackTrace();
 			throw e;
 		}
-		return Response.ok(new GenericEntity<Map<Date, List<Object[]>>>(results) {
-		}).build();
+		return Response.ok(
+				new GenericEntity<Map<Date, List<Object[]>>>(results) {
+				}).build();
 	}
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
@@ -136,6 +137,7 @@ public class NewsService {
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Path("delete/{ID: \\d+}")
+	@Consumes(MediaType.APPLICATION_JSON)
 	@PUT
 	public Response delete(@PathParam("ID") String ID) throws Exception {
 		transaction = new DeleteModelTransaction();

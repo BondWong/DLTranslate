@@ -8,22 +8,17 @@
 <%@ page import="transaction.read.FetchNewsTuplesTransaction"%>
 <%
 	Transaction transaction = new FetchNewsTuplesTransaction();
-	Map<Date, List<Object[]>> tuples = (Map<Date, List<Object[]>>) transaction
+	Map<String, List<Object[]>> tuples = (Map<String, List<Object[]>>) transaction
 	.execute(null);
 
 	int pages = 0;
-	List<Date> dates = new ArrayList<Date>(tuples.keySet());
-	Collections.sort(dates, new Comparator<Date>() {
-		public int compare(Date date1, Date date2) {
-	if (date1.after(date2))
-		return 1;
-	else if (date1.before(date2))
-		return -1;
-	else
-		return 0;
+	List<String> dates = new ArrayList<String>(tuples.keySet());
+	Collections.sort(dates, new Comparator<String>() {
+		public int compare(String date1, String date2) {
+	return date1.compareTo(date2) * -1;
 		}
 	});
-	for (Date date : dates)
+	for (String date : dates)
 		pages += tuples.get(date).size();
 	if (pages % 5 == 0)
 		pages = pages / 5;
