@@ -25,7 +25,7 @@
 				<c:if test="${requestScope.needRemind }">
 					<h2>( Login yourself to get access )</h2>
 				</c:if>
-				<h5>RichStore Admin : Login</h5>
+				<h5>DLTranslate Admin : Login</h5>
 				<br />
 			</div>
 		</div>

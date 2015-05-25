@@ -10,4 +10,50 @@
 	<listener>
 		<listener-class>systemTest.TestDataCreator</listener-class>
 	</listener>
+	<filter>
+		<filter-name>AdminLoginFilter</filter-name>
+		<filter-class>security.filters.AdminLoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AdminLoginFilter</filter-name>
+		<url-pattern>
+			/admin/news.jsp
+		</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AdminLoginFilter</filter-name>
+		<url-pattern>
+			/admin/messages.jsp
+		</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AdminLoginFilter</filter-name>
+		<url-pattern>
+			/admin/index.jsp
+		</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AdminLoginFilter</filter-name>
+		<url-pattern>
+			/admin/profile.jsp
+		</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AdminLoginFilter</filter-name>
+		<url-pattern>
+			/admin/message_detail.jsp
+		</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AdminLoginFilter</filter-name>
+		<url-pattern>
+			/admin/news_detail.jsp
+		</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AdminLoginFilter</filter-name>
+		<url-pattern>
+			/admin/news_creation.jsp
+		</url-pattern>
+	</filter-mapping>
 </web-app>

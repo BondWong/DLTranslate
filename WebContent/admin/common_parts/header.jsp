@@ -25,7 +25,7 @@
 		<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
 		<span class="icon-bar"></span> <span class="icon-bar"></span>
 	</button>
-	<a class="navbar-brand" href="index.jsp">RichStore Admin</a>
+	<a class="navbar-brand" href="index.jsp">DLTranslate Admin</a>
 </div>
 <div
 	style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
@@ -43,7 +43,7 @@
 			<c:when test="${requestScope.news_management }">
 				<li><a class="active-menu" href="news.jsp"><i
 						class="fa fa-dashboard fa-3x"></i> News Management</a></li>
-				<li><a href="message.jsp"><i class="fa fa-desktop fa-3x"></i>
+				<li><a href="messages.jsp"><i class="fa fa-desktop fa-3x"></i>
 						Messages Management</a></li>
 				<li><a href=" profile.jsp"><i
 						class="fa fa-bar-chart-o fa-3x"></i> Profile</a></li>
@@ -51,7 +51,7 @@
 			<c:when test="${requestScope.messages_management }">
 				<li><a href="news.jsp"><i class="fa fa-dashboard fa-3x"></i>
 						News Management</a></li>
-				<li><a class="active-menu" href="message.jsp"><i
+				<li><a class="active-menu" href="messages.jsp"><i
 						class="fa fa-desktop fa-3x"></i> Messages Management</a></li>
 				<li><a href=" profile.jsp"><i
 						class="fa fa-bar-chart-o fa-3x"></i> Profile</a></li>
@@ -59,7 +59,7 @@
 			<c:when test="${requestScope.profile }">
 				<li><a href="news.jsp"><i class="fa fa-dashboard fa-3x"></i>
 						News Management</a></li>
-				<li><a href="message.jsp"><i class="fa fa-desktop fa-3x"></i>
+				<li><a href="messages.jsp"><i class="fa fa-desktop fa-3x"></i>
 						Messages Management</a></li>
 				<li><a class="active-menu" href=" profile.jsp"><i
 						class="fa fa-bar-chart-o fa-3x"></i> Profile</a></li>
@@ -67,7 +67,7 @@
 			<c:otherwise>
 				<li><a href="news.jsp"><i class="fa fa-dashboard fa-3x"></i>
 						News Management</a></li>
-				<li><a href="message.jsp"><i class="fa fa-desktop fa-3x"></i>
+				<li><a href="messages.jsp"><i class="fa fa-desktop fa-3x"></i>
 						Messages Management</a></li>
 				<li><a href=" profile.jsp"><i
 						class="fa fa-bar-chart-o fa-3x"></i> Profile</a></li>
