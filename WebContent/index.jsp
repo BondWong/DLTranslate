@@ -154,7 +154,7 @@
 			<div id="owl-demo" class="owl-carousel text-center">
 				<div class="item">
 					<div class="cau_left">
-						<img class="lazyOwl" data-src="images/c1.jpg" alt="Lazy Owl Image">
+						<img class="lazyOwl" data-src="images/zyb.png" alt="Lazy Owl Image">
 					</div>
 					<div class="cau_left">
 						<h4>
@@ -167,7 +167,7 @@
 				</div>
 				<div class="item">
 					<div class="cau_left">
-						<img class="lazyOwl" data-src="images/c2.jpg" alt="Lazy Owl Image">
+						<img class="lazyOwl" data-src="images/pk.png" alt="Lazy Owl Image">
 					</div>
 					<div class="cau_left">
 						<h4>
@@ -193,7 +193,7 @@
 				</div>
 				<div class="item">
 					<div class="cau_left">
-						<img class="lazyOwl" data-src="images/c4.jpg" alt="Lazy Owl Image">
+						<img class="lazyOwl" data-src="images/wly.jpg" alt="Lazy Owl Image">
 					</div>
 					<div class="cau_left">
 						<h4>

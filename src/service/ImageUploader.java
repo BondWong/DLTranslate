@@ -91,7 +91,7 @@ public class ImageUploader extends HttpServlet {
 		upload = new ServletFileUpload(factory);
 		upload.setSizeMax(MAXIMUMFILESIZE);
 		root = getServletConfig().getServletContext().getRealPath("/")
-				+ "images/uploadedImages";
+				+ "images/uploadedImages/";
 		if (!Files.exists(Paths.get(root)))
 			Files.createDirectory(Paths.get(root));
 	}
@@ -112,7 +112,7 @@ public class ImageUploader extends HttpServlet {
 				String name = URLEncoder.encode(item.getName());
 				File uploaddedFile = new File(root + name);
 				item.write(uploaddedFile);
-				links.add(root + name);
+				links.add("images/uploadedImages/" + name);
 			}
 		}
 
