@@ -66,11 +66,13 @@ public class News extends Model {
 	}
 
 	public void setImageLinks(List<String> imageLinks) {
-		this.imageLinks = imageLinks;
+		for (String imageLink : imageLinks)
+			addImageLink(imageLink);
 	}
 
 	public void addImageLink(String imageLink) {
-		this.imageLinks.add(imageLink);
+		if (imageLink != null && !imageLink.equals(""))
+			this.imageLinks.add(imageLink);
 	}
 
 	public void removeImageLink(String imageLink) {
@@ -127,10 +129,16 @@ public class News extends Model {
 		representation.put("ID", this.ID);
 		representation.put("title", this.title);
 		representation.put("imageLinks", this.imageLinks);
+		representation.put("imageNum", this.imageLinks.size());
 		representation.put("publishDate", this.publishDate);
 		representation.put("publishTime", this.publishTime);
 		representation.put("commentQuantity", comments.size());
 		representation.put("content", this.content);
+		if (this.content.length() > 100)
+			representation.put("contentShortCut",
+					this.content.substring(0, 100) + "......");
+		else
+			representation.put("contentShortCut", this.content);
 
 		List<Map<String, Object>> comments = new ArrayList<>();
 		for (Comment comment : this.comments)

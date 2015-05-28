@@ -47,6 +47,7 @@
 	.execute(param);
 
 	request.setAttribute("news", news);
+	System.out.println(news);
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
@@ -90,9 +91,16 @@
 						</div>
 
 						<div class="post_content">
-							<figure> <a href="single_post.jsp?id=${single_news.ID }"><img
-								alt="0"
-								src="${single_news.imageLinks[0] }" /></a> </figure>
+							<figure> <a href="single_post.jsp?id=${single_news.ID }">
+								<c:choose>
+									<c:when test="${single_news.imageNum != 0}">
+										<img src="${single_news.imageLinks[0] }" />
+									</c:when>
+									<c:otherwise>
+										<p>${single_news.contentShortCut }</p>
+									</c:otherwise>
+								</c:choose>
+							</a></figure>
 							<p>${single_news.paragraphs[0].content }</p>
 							<a href="single_post.jsp?id=${single_news.ID }"
 								class="btn btn-primary">详细</a>

@@ -15,7 +15,7 @@ public class CreateNewsTransaction extends DAOTransaction {
 	protected Object process(DAO dao, Map param) throws Exception {
 		// TODO Auto-generated method stub
 		String content = (String) param.get("content");
-		content = content.replace("[\n\r]+", "<br />").replaceAll("\n+", "<br />");
+		content = content.replace("[\n\r]+", "<br /><br />").replaceAll("\n+", "<br /><br />");
 		String title = (String) param.get("title");
 		List<String> imageLinks = (List<String>) param.get("imageLinks");
 
