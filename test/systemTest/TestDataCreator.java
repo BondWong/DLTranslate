@@ -40,8 +40,10 @@ public class TestDataCreator implements ServletContextListener {
 		param.put("message", "叼你");
 		Transaction transaction = new CreateMessageTransaction();
 		try {
-			for (int i = 0; i < 10; i++)
+			for (int i = 0; i < 10; i++) {
+				Thread.sleep(200);
 				transaction.execute(param);
+			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -50,6 +52,7 @@ public class TestDataCreator implements ServletContextListener {
 		param.clear();
 		param.put("title", "fuck");
 		param.put("imageLinks", new ArrayList<String>());
+		param.put("content", "叼你\n\nhaha");
 		List<Map> paragraphParams = new ArrayList<>();
 		Map paragraphParam = new HashMap();
 		paragraphParam.put("isImportant", "false");
@@ -57,15 +60,17 @@ public class TestDataCreator implements ServletContextListener {
 		paragraphParams.add(paragraphParam);
 		paragraphParams.add(paragraphParam);
 		List<String> imageLinks = new ArrayList<>();
-		imageLinks.add("create_news.png");
-		imageLinks.add("create_news.png");
-		imageLinks.add("create_news.png");
+		imageLinks.add("images/uploadedImages/create_news.png");
+		imageLinks.add("images/uploadedImages/create_news.png");
+		imageLinks.add("images/uploadedImages/create_news.png");
 		param.put("imageLinks", imageLinks);
 		param.put("paragraphParams", paragraphParams);
 		transaction = new CreateNewsTransaction();
 		try {
-			for (int i = 0; i < 10; i++)
+			for (int i = 0; i < 10; i++) {
+				Thread.sleep(200);
 				transaction.execute(param);
+			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

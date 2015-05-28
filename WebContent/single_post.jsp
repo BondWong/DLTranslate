@@ -54,24 +54,11 @@
 						<div class="slider">
 							<c:forEach var="imageLink"
 								items="${requestScope.news.imageLinks }">
-								<img src="images/uploadedImages/${imageLink}" />
+								<img src="${imageLink}" />
 							</c:forEach>
 						</div>
 						</figure>
-
-						<c:forEach var="paragraph"
-							items="${requestScope.news.paragraphs }">
-							<c:choose>
-								<c:when test="${paragraph.isImportant }">
-									<blockquote>
-										<p>${paragraph.content }</p>
-									</blockquote>
-								</c:when>
-								<c:otherwise>
-									<p>${paragraph.content }</p>
-								</c:otherwise>
-							</c:choose>
-						</c:forEach>
+						<p>${requestScope.news.content }</p>
 					</div>
 					</article>
 					<div id="post_comments">

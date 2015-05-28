@@ -69,7 +69,7 @@
 											<div class="col-md-6">
 												<c:forEach var="imageLink"
 													items="${requestScope.news.imageLinks }">
-													<img src="../images/uploadedImages/${imageLink}" />
+													<img src="${imageLink}" />
 												</c:forEach>
 											</div>
 										</div>

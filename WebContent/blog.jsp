@@ -92,7 +92,7 @@
 						<div class="post_content">
 							<figure> <a href="single_post.jsp?id=${single_news.ID }"><img
 								alt="0"
-								src="images/uploadedImages/${single_news.imageLinks[0] }" /></a> </figure>
+								src="${single_news.imageLinks[0] }" /></a> </figure>
 							<p>${single_news.paragraphs[0].content }</p>
 							<a href="single_post.jsp?id=${single_news.ID }"
 								class="btn btn-primary">详细</a>
