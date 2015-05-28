@@ -98,9 +98,11 @@
 				</div>
 			</div>
 		</div>
-		<div id="changeLang">
+		<!--
+			<div id="changeLang">
 			<a href="javascript:void(0)">中文</a>&nbsp;/&nbsp;<a
 				href="javascript:void(0)">English</a>
-		</div>
+			</div>
+		  -->
 	</div>
 </header>
