@@ -180,7 +180,8 @@
 				</div>
 				<div class="item">
 					<div class="cau_left">
-						<img class="lazyOwl" data-src="images/c3.jpg" alt="Lazy Owl Image">
+						<img class="lazyOwl" data-src="images/Luke810.jpg"
+							alt="Lazy Owl Image">
 					</div>
 					<div class="cau_left">
 						<h4>

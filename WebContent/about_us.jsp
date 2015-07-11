@@ -69,8 +69,8 @@
 			</h2>
 			<div class="row">
 				<div class="span3 team_member">
-					<figure style="background-image: url(images/1b.jpg)"> <img
-						src="images/1a.jpg" alt="1a" /></figure>
+					<figure style="background-image: url(images/Don-smile810.jpg)">
+					<img src="images/Don810.jpg" alt="1a" /></figure>
 					<h5>李晓明</h5>
 					<small>Web-Developer / Founder</small>
 					<hr />
@@ -83,8 +83,8 @@
 					<p class="short_bio">简介</p>
 				</div>
 				<div class="span3 team_member">
-					<figure style="background-image: url(images/2b.jpg)"> <img
-						src="images/2a.jpg" alt="2a" /></figure>
+					<figure style="background-image: url(images/Maria-smile810.jpg)">
+					<img src="images/Maria810.jpg" alt="2a" /></figure>
 					<h5>刘蕾</h5>
 					<small>Designer / Founder</small>
 					<hr />
