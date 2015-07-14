@@ -42,7 +42,7 @@
 					</div>
 					<div class="portfolio_description">
 						<h3>
-							<a href="portfolio_item.jsp?id=ylqxz">第71届中国国际医疗器械(春季)博览会</a>
+							<a href="portfolio_item.jsp?id=ylqxz">国际医疗器械展翻译</a>
 						</h3>
 						<!-- <p>travel</p> -->
 					</div>
@@ -57,7 +57,7 @@
 					</div>
 					<div class="portfolio_description">
 						<h3>
-							<a href="portfolio_item.jsp?id=hcw">何常委影视作品翻译</a>
+							<a href="portfolio_item.jsp?id=hcw">唯天下影视作品翻译</a>
 						</h3>
 						<!-- <p>people</p> -->
 					</div>
@@ -72,7 +72,7 @@
 					</div>
 					<div class="portfolio_description">
 						<h3>
-							<a href="portfolio_item.jsp?id=cqsg">重庆外使馆</a>
+							<a href="portfolio_item.jsp?id=cqsg">重庆外事侨务局翻译</a>
 						</h3>
 						<!-- <p>artists</p> -->
 					</div>
@@ -87,7 +87,7 @@
 					</div>
 					<div class="portfolio_description">
 						<h3>
-							<a href="portfolio_item.jsp?id=hqdszb">横琴总部大厦</a>
+							<a href="portfolio_item.jsp?id=hqdszb">横琴总部大厦楼书翻译</a>
 						</h3>
 						<!-- <p>people</p> -->
 					</div>
@@ -102,7 +102,7 @@
 					</div>
 					<div class="portfolio_description">
 						<h3>
-							<a href="portfolio_item.jsp?id=szm">十字门</a>
+							<a href="portfolio_item.jsp?id=szm">珠海十字门商务区翻译</a>
 						</h3>
 						<!-- <p>travel</p> -->
 					</div>
@@ -117,7 +117,7 @@
 					</div>
 					<div class="portfolio_description">
 						<h3>
-							<a href="portfolio_item.jsp?id=jzsj">建筑设计</a>
+							<a href="portfolio_item.jsp?id=jzsj">珠海建筑设计院翻译</a>
 						</h3>
 						<!-- <p>people</p> -->
 					</div>
@@ -132,7 +132,7 @@
 					</div>
 					<div class="portfolio_description">
 						<h3>
-							<a href="portfolio_item.jsp?id=hqhz">横琴画展</a>
+							<a href="portfolio_item.jsp?id=hqhz">横琴艺术交流会翻译</a>
 						</h3>
 						<!-- <p>poetic</p> -->
 					</div>
@@ -147,7 +147,7 @@
 					</div>
 					<div class="portfolio_description">
 						<h3>
-							<a href="portfolio_item.jsp?id=ky">跨越</a>
+							<a href="portfolio_item.jsp?id=ky">跨越----语言服务运动</a>
 						</h3>
 						<!-- <p>artists</p> -->
 					</div>

@@ -17,12 +17,10 @@
 		<div class="container">
 			<section class="call_to_action">
 			<h3 class="animated bounceInDown">
-				we design <strong>value</strong> into profit
+				<strong>Best service</strong> presented to you
 			</h3>
 			<br />
-			<h4 class="animated bounceInUp">
-				our <strong>customers</strong> are always <strong>happy</strong>!
-			</h4>
+			<h4 class="animated bounceInUp"></h4>
 			</section>
 		</div>
 	</div>
@@ -30,8 +28,8 @@
 		<div class="container">
 			<section id="services">
 			<div class="hgroup">
-				<h1>帝联翻译服务</h1>
-				<h2>帝联翻译的翻译项目主要:笔译、口译、其他翻译</h2>
+				<h1>帝联环球翻译服务</h1>
+				<h2></h2>
 				<ul class="breadcrumb pull-right">
 					<li><a href="index.jsp">主页</a> <span class="divider">/</span></li>
 					<li class="active">业务范围</li>
@@ -84,7 +82,7 @@
 				<div class="span4">
 					<div class="pricing_plan special" id="written_pricing">
 						<h3>
-							<strong>笔译</strong> <small>一句话介绍</small>
+							<strong>笔译</strong> <small></small>
 						</h3>
 						<div class="the_price">
 							<!-- <span>$</span>150<small>/year</small> -->
@@ -111,7 +109,7 @@
 				<div class="span4">
 					<div class="pricing_plan special" id="oral_pricing">
 						<h3>
-							<strong>口译</strong> <small>一句话介绍</small>
+							<strong>口译</strong> <small></small>
 						</h3>
 						<div class="the_price">
 							<!-- <span>$</span>150<small>/year</small> -->
@@ -138,7 +136,7 @@
 				<div class="span4">
 					<div class="pricing_plan special" id="others_pricing">
 						<h3>
-							<strong>其他翻译</strong> <small>一句话介绍</small>
+							<strong>其他翻译</strong> <small></small>
 						</h3>
 						<div class="the_price">
 							<!-- <span>$</span>150<small>/year</small> -->
@@ -168,8 +166,9 @@
 					<figure> <i class="icon-cloud-download"></i> </figure>
 					<div class="desc">
 						<h4>阅读级</h4>
-						<p>定义：满足普通生活、阅读使用要求，文字通顺，内容，忠实原文；无语法错误，无漏译，无文化冲突的翻译用语。
-							适合领域：出国工作及留学时，大使馆需要提交的证书、证明文件、简历、资质荣誉、成绩单、身份证、户口本、推荐信等等；普通沟通交流的翻译文件，如email、聊天交流、口述记录、阅读参考类文件。
+						<p>
+							定义：翻译难度低、无专业术语、专业性不强的普通资料<br /> <br />
+							适合对象：出国工作及留学相关证书、证明文件、简历、资质荣誉、成绩单、身份证、户口本、推荐信、email、聊天记录、口述记录等。
 						</p>
 					</div>
 				</div>
@@ -177,24 +176,30 @@
 					<figure> <i class="icon-beaker"></i> </figure>
 					<div class="desc">
 						<h4>专业级</h4>
-						<p>定义：工业界翻译项目，CAD或者图纸较多，数据、图形众多，排版要求较高。术语要求严格，需要翻译有行业内从业背景，来自客户的特殊要求：术语、格式、行文风格、固定说法、习惯用语较多，行业内约定俗成的规矩很多，需要翻译语言知识扎实、行业背景知识深厚，尊重客户特殊要求，熟悉行业内的习惯用法。
-							适合领域：标准、法规、工艺文件、作业指导书、用户手册、试验规范、设备操作手册、产品说明书、报告类文件。</p>
+						<p>
+							定义：涉及到大量数据、专业术语、排版要求较高、格式复杂的各行各业的专业资料<br /> <br />
+							适合对象：行业标准、法规、工艺文件、作业指导书、用户手册、试验规范、设备操作手册、产品说明书、报告类文件等。
+						</p>
 					</div>
 				</div>
 				<div class="span3 service text-center">
 					<figure> <i class="icon-group"></i> </figure>
 					<div class="desc">
 						<h4>商务级</h4>
-						<p>定义：涉及商务会谈、谈判、招投标、商务信函，以及相关的法律文件、文书、合同类，责任重大，要求翻译稿件严谨，绝对忠实原文，排版正式，符合客户要求，译员除了需要拥有扎实的语言知识和行业背景外，还要有认真、细致、严谨、谨慎的工作态度。
-							适合领域：合同、招投标书、商务信函、法律文书，以及其他客户提出商务级要求的翻译项目。</p>
+						<p>
+							定义：涉及商务会谈、谈判、招投标、签约、贸易等商务文件，以及相关的法律文件<br /> <br />
+							适合对象：合同、招投标书、商务信函、法律文书等。
+						</p>
 					</div>
 				</div>
 				<div class="span3 service text-center">
 					<figure> <i class="icon-thumbs-up"></i> </figure>
 					<div class="desc">
 						<h4>出版级</h4>
-						<p>定义：需要国内外杂志发表、评定职称、印刷出版，排版要求高，图文并茂、行文流畅，不同出版发行的风格要求：严谨，或者寓意深邃，或者专业背景知识深厚，或者对规格的要求翔实复杂；客户要求母语校对的翻译项目属于此类。
-							适合领域：论文、专利、杂志、期刊、宣传画册，或者其他客户要求出版级的翻译项目。</p>
+						<p>
+							定义：需要用于国内外杂志发表、评定职称、印刷出版的高难度、专业性超强的相关资料<br /> <br />
+							适合对象：论文、专利、杂志、期刊、企业宣传资料等。
+						</p>
 					</div>
 				</div>
 			</div>
@@ -331,7 +336,7 @@
 					<table class="table table-bordered table-hover">
 						<thead>
 							<tr>
-								<th></th>
+								<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
 								<th>展览、旅游陪同</th>
 								<th>交流、谈判会</th>
 								<th>大型国际会议</th>

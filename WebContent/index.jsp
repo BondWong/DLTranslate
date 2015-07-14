@@ -48,7 +48,7 @@
 					<div class="container">
 						<div class="carousel-caption">
 							<h1 class="inverse">
-								<strong>翻译不是简单的寻求不同语言间的文字对等、功能对等、意义对等,而是去搭建不同文化之间最适合的一座桥梁。</strong>
+								<strong>翻译是搭建不同文化之间最适合的桥梁。</strong>
 							</h1>
 							<p class="lead">----Don Lee (Founder of DL International)</p>
 						</div>
@@ -154,11 +154,11 @@
 			<div id="owl-demo" class="owl-carousel text-center">
 				<div class="item">
 					<div class="cau_left">
-						<img class="lazyOwl" data-src="images/c1.jpg" alt="Lazy Owl Image">
+						<img class="lazyOwl" data-src="images/c2.jpg" alt="Lazy Owl Image">
 					</div>
 					<div class="cau_left">
 						<h4>
-							<a href="#">赵友斌</a>
+							<a href="javascript:void(0)">赵友斌</a>
 						</h4>
 						<p>
 							英国剑桥大学高级访问学者<br />暨南大学翻译学院院长、教授
@@ -167,11 +167,11 @@
 				</div>
 				<div class="item">
 					<div class="cau_left">
-						<img class="lazyOwl" data-src="images/c2.jpg" alt="Lazy Owl Image">
+						<img class="lazyOwl" data-src="images/c5.jpg" alt="Lazy Owl Image">
 					</div>
 					<div class="cau_left">
 						<h4>
-							<a href="#">Paul</a>
+							<a href="javascript:void(0)">Paul</a>
 						</h4>
 						<p>
 							美国加利福尼亚大学语言学硕士<br />杂志编辑
@@ -180,15 +180,14 @@
 				</div>
 				<div class="item">
 					<div class="cau_left">
-						<img class="lazyOwl" data-src="images/Luke810.jpg"
-							alt="Lazy Owl Image">
+						<img class="lazyOwl" data-src="images/c1.jpg" alt="Lazy Owl Image">
 					</div>
 					<div class="cau_left">
 						<h4>
-							<a href="#">Luke</a>
+							<a href="javascript:void(0)">孙敏</a>
 						</h4>
 						<p>
-							澳大利亚格里菲斯大学汉语文学硕士<br />“中国通”
+							帝联环球特聘法律顾问<br />律师
 						</p>
 					</div>
 				</div>
@@ -198,7 +197,7 @@
 					</div>
 					<div class="cau_left">
 						<h4>
-							<a href="#">王林燕</a>
+							<a href="javascript:void(0)">王林燕</a>
 						</h4>
 						<p>
 							暨南大学翻译学院教授<br />翻译中心主任

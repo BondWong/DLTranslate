@@ -7,9 +7,6 @@
 	<listener>
 		<listener-class>system.Initialtor</listener-class>
 	</listener>
-	<listener>
-		<listener-class>systemTest.TestDataCreator</listener-class>
-	</listener>
 	<filter>
 		<filter-name>AdminLoginFilter</filter-name>
 		<filter-class>security.filters.AdminLoginFilter</filter-class>

@@ -48,31 +48,29 @@
 				</div>
 				<div class="span4">
 					<blockquote>
-						<p>In hac habitasse platea dictumst. Suspendisse non tellus
-							ligula. Morbi molestie feugiat tortor a hendrerit. Ut suscipit,
-							orci eget tristique varius, arcu nibh commodo nisl, a sagittis
-							justo ipsum vel nulla. In semper est iaculis elit pellentesque
-							volutpat. Aenean orci ante, auctor ut egestas ac, gravida non
-							orci.</p>
-						<small>Someone famous in <cite title="Source Title">Source
-								Title</cite></small>
+						<p>This is a professional and excellent translation company
+							managed by a group of energetic and committed academics. We have
+							been cooperating with each other for years and DL has never
+							failed us. When DL is in charge with our translation, we are
+							always at ease.n</p>
+						<small> ----Kevin Wilson<cite title="Source Title"></cite></small>
 					</blockquote>
 				</div>
 			</div>
 			<section class="call_to_action"> <img alt="responsive"
 				src="images/star.png" />
-			<h3>give your creative ideas a boost</h3>
-			<h4>mouse over our team photos to see a cool effect!</h4>
+			<h3>帝联人竭尽全力为您提供星级翻译服务!</h3>
+			<h4>DL strives to provide the best translation service!</h4>
 			</section>
 			<h2 class="section_header">
-				公司成员... <small>they are always up to something good!</small>
+				公司成员... <small>We are always at your service!</small>
 			</h2>
 			<div class="row">
 				<div class="span3 team_member">
 					<figure style="background-image: url(images/Don-smile810.jpg)">
 					<img src="images/Don810.jpg" alt="1a" /></figure>
 					<h5>李晓明</h5>
-					<small>Web-Developer / Founder</small>
+					<small>CEO/Founder</small>
 					<hr />
 					<div class="team_social">
 						<a href="javascript:void(0)"><i class="icon"></i></a> <a
@@ -80,13 +78,13 @@
 							href="javascript:void(0)"><i class="icon"></i></a> <a
 							href="javascript:void(0)"><i class="icon"></i></a>
 					</div>
-					<p class="short_bio">简介</p>
+					<p class="short_bio">中国深圳翻译大使/英国华威大学硕士/暨南大学翻译学院学士</p>
 				</div>
 				<div class="span3 team_member">
 					<figure style="background-image: url(images/Maria-smile810.jpg)">
 					<img src="images/Maria810.jpg" alt="2a" /></figure>
 					<h5>刘蕾</h5>
-					<small>Designer / Founder</small>
+					<small>Manager</small>
 					<hr />
 					<div class="team_social">
 						<a href="javascript:void(0)"><i class="icon"></i></a> <a
@@ -94,13 +92,13 @@
 							href="javascript:void(0)"><i class="icon"></i></a> <a
 							href="javascript:void(0)"><i class="icon"></i></a>
 					</div>
-					<p class="short_bio">简介</p>
+					<p class="short_bio">武汉大学英语系硕士/拥有国际英语教学证书、英语专业八级优秀证书</p>
 				</div>
 				<div class="span3 team_member">
-					<figure style="background-image: url(images/3b.jpg)"> <img
-						src="images/3a.jpg" alt="3a" /></figure>
-					<h5>郭文舒</h5>
-					<small>Photographer / Model</small>
+					<figure style="background-image: url(images/Luke-smile810.jpg)">
+					<img src="images/Luke810.jpg" alt="3a" /></figure>
+					<h5>Luke</h5>
+					<small>Overseas Marketing Manager</small>
 					<hr />
 					<div class="team_social">
 						<a href="javascript:void(0)"><i class="icon"></i></a> <a
@@ -108,13 +106,13 @@
 							href="javascript:void(0)"><i class="icon"></i></a> <a
 							href="javascript:void(0)"><i class="icon"></i></a>
 					</div>
-					<p class="short_bio">简介</p>
+					<p class="short_bio">昆士兰大学语言学硕士/TESOL国际认证</p>
 				</div>
 				<div class="span3 team_member">
-					<figure style="background-image: url(images/4b.jpg)"> <img
-						src="images/4a.jpg" alt="4a" /></figure>
-					<h5>Tara</h5>
-					<small>Handsome / Driver</small>
+					<figure style="background-image: url(images/Heris-smile.jpg)">
+					<img src="images/Heris.jpg" alt="4a" /></figure>
+					<h5>Heris</h5>
+					<small>Home Marketing Manager</small>
 					<hr />
 					<div class="team_social">
 						<a href="javascript:void(0)"><i class="icon"></i></a> <a
@@ -122,7 +120,7 @@
 							href="javascript:void(0)"><i class="icon"></i></a> <a
 							href="javascript:void(0)"><i class="icon"></i></a>
 					</div>
-					<p class="short_bio">简介</p>
+					<p class="short_bio">日语一级专家/暨南大学翻译学院学士</p>
 				</div>
 			</div>
 			</article> </section>

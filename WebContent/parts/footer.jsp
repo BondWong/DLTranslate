@@ -33,13 +33,16 @@
 								<i class="icon-map-marker"></i>
 							</p> -->
 					<p>
-						<i class="icon-phone"></i>
+						<i class="icon-phone"></i> 0756-6280985 | 0753-2200114 |
+						13727631186
+
 					</p>
 					<p>
-						<i class="icon-print"></i>
+						<i class="icon-print"></i> 0756-6280984
 					</p>
 					<p>
-						<i class="icon-envelope"></i> dltranslation@163.com
+						<i class="icon-envelope"></i> dltranslation@163.com (CEO) |
+						mrdonlee@163.com
 					</p>
 				</div>
 				<!-- <div class="span4 footer_teaser">
