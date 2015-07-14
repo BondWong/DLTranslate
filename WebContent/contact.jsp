@@ -21,7 +21,7 @@
 			<section id="contact">
 			<div class="hgroup">
 				<h1>联系我们</h1>
-				<h2>联系我们地客服提出您宝贵的意见</h2>
+				<h2>联系我们的客服提出您宝贵的意见</h2>
 				<ul class="breadcrumb pull-right">
 					<li><a href="index.jsp">主页</a> <span class="divider">/</span></li>
 					<li class="active">联系我们</li>
@@ -31,8 +31,9 @@
 				<div class="span4 office_address">
 					<address>
 						<strong>帝联环球翻译</strong><br />公司地址: <br />(1)广东省珠海市横琴新区三塘105<br />(2)广东省梅州市梅江区江南百花洲百花洲影剧院大楼三楼
-						<br /> <abbr title="Phone">电话:</abbr> <br />邮箱：<a
-							href="mailto:dltranslation@163.com">dltranslation@163.com</a>
+						<br /> <abbr title="Phone">电话：0756-6280985 | 0753-2200114
+							| 13727631186</abbr> <br />邮箱：<a href="mailto:dltranslation@163.com">dltranslation@163.com</a>
+						｜ <a href="mailto:mrdonlee@163.com">mrdonlee@163.com (CEO)</a>
 					</address>
 				</div>
 				<div class="span8 contact_form">

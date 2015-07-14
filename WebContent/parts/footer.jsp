@@ -41,8 +41,8 @@
 						<i class="icon-print"></i> 0756-6280984
 					</p>
 					<p>
-						<i class="icon-envelope"></i> dltranslation@163.com (CEO) |
-						mrdonlee@163.com
+						<i class="icon-envelope"></i> dltranslation@163.com |
+						mrdonlee@163.com (CEO)
 					</p>
 				</div>
 				<!-- <div class="span4 footer_teaser">
@@ -82,9 +82,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="span6">
-					Copyright &copy; 2015 <a href="javascript:void(0)">DLTranslate</a>
-					All rights reserved.<br /> Technical Support <a
-						href="http://www.huntingweb.net">HuntingWeb</a>
+					Copyright &copy; 2015 <a href="javascript:void(0)">DL
+						International</a> All rights reserved.<br /> Technical Support <a
+						href="http://www.huntingweb.net">猎网工作室</a>
 				</div>
 			</div>
 		</div>

@@ -52,7 +52,7 @@
 							managed by a group of energetic and committed academics. We have
 							been cooperating with each other for years and DL has never
 							failed us. When DL is in charge with our translation, we are
-							always at ease.n</p>
+							always at ease.</p>
 						<small> ----Kevin Wilson<cite title="Source Title"></cite></small>
 					</blockquote>
 				</div>
