@@ -5,3 +5,7 @@
 #wrapper1 {
 	padding: 35px 0px 45px;
 }
+
+div.modal_hide {
+	margin-top: 5000px;
+}

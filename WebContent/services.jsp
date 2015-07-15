@@ -103,7 +103,7 @@
 							</p>
 						</div>
 						<a href="javascript:void(0)" class="btn btn-primary btn-large"
-							data-toggle="modal" data-target="#written_modal_dialog">查看详情</a>
+							id="written_modal_dialog_button">查看详情</a>
 					</div>
 				</div>
 				<div class="span4">
@@ -130,7 +130,7 @@
 							</p>
 						</div>
 						<a href="javascript:void(0)" class="btn btn-primary btn-large"
-							data-toggle="modal" data-target="#oral_modal_dialog">查看详情</a>
+							id="oral_modal_dialog_button">查看详情</a>
 					</div>
 				</div>
 				<div class="span4">
@@ -157,7 +157,7 @@
 							</p>
 						</div>
 						<a href="javascript:void(0)" class="btn btn-primary btn-large"
-							data-toggle="modal" data-target="#others_modal_dialog">查看详情</a>
+							id="others_modal_dialog_button">查看详情</a>
 					</div>
 				</div>
 			</div>
@@ -207,7 +207,7 @@
 				<div class="text-center">
 					<div class="button_box">
 						<a href="javascript:void(0)" class="button_link"
-							data-toggle="modal" data-target="#coporate_modal_dialog">点击查看合作详情<span
+							id="cooperate_modal_dialog_button">点击查看合作详情<span
 							class="line line_top"></span> <span class="line line_right"></span>
 							<span class="line line_bottom"></span> <span
 							class="line line_left"></span>
@@ -218,15 +218,16 @@
 		</div>
 		<%@ include file="parts/footer.jsp"%>
 	</div>
-	<div class="modal fade" id="written_modal_dialog">
-		<div class="modal-dialog">
+
+	<div class="modal fade modal_hide" id="written_modal_dialog"
+		tabindex="-1" role="dialog" aria-labelledby="written_modal_label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-					<h4 class="modal-title">笔译详细介绍</h4>
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="written_modal_label">笔译详细介绍</h4>
 				</div>
 				<div class="modal-body">
 					<table class="table table-bordered table-hover">
@@ -322,15 +323,16 @@
 		<!-- /.modal-dialog -->
 	</div>
 	<!-- /.modal -->
-	<div class="modal fade" id="oral_modal_dialog">
-		<div class="modal-dialog">
+	<div class="modal fade modal_hide" id="oral_modal_dialog" tabindex="-1"
+		role="dialog" aria-labelledby="oral_modal_label" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-					<h4 class="modal-title">口译详细介绍</h4>
+					<h4 class="modal-title" id="oral_modal_label">口译详细介绍</h4>
 				</div>
 				<div class="modal-body">
 					<table class="table table-bordered table-hover">
@@ -393,15 +395,17 @@
 	</div>
 	<!-- /.modal-dialog -->
 	<!-- /.modal -->
-	<div class="modal fade longer" id="others_modal_dialog">
-		<div class="modal-dialog">
+	<div class="modal fade longer modal_hide" id="others_modal_dialog"
+		tabindex="-1" role="dialog" aria-labelledby="others_modal_label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-sm">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-					<h4 class="modal-title">其他翻译详细介绍</h4>
+					<h4 class="modal-title" id="others_modal_dialog">其他翻译详细介绍</h4>
 				</div>
 				<div class="modal-body">
 					<div class="panel panel-default">
@@ -424,7 +428,7 @@
 		<!-- /.modal-dialog -->
 	</div>
 	<!-- /.modal -->
-	<div class="modal fade" id="coporate_modal_dialog">
+	<div class="modal fade modal_hide" id="coroporate_modal_dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -459,6 +463,32 @@
 			<button type="button" class="btn btn-success" data-dismiss="modal">确定</button>
 		</div>
 	</div>
+
 	<%@ include file="parts/footCommonPart.jsp"%>
+	<script>
+		$("#cooperate_modal_dialog_button").click(function() {
+			var dialog = $("#coroporate_modal_dialog");
+			dialog.removeClass("modal_hide");
+			dialog.modal();
+		});
+
+		$("#written_modal_dialog_button").click(function() {
+			var dialog = $("#written_modal_dialog");
+			dialog.removeClass("modal_hide");
+			dialog.modal();
+		});
+
+		$("#oral_modal_dialog_button").click(function() {
+			var dialog = $("#oral_modal_dialog");
+			dialog.removeClass("modal_hide");
+			dialog.modal();
+		});
+
+		$("#others_modal_dialog_button").click(function() {
+			var dialog = $("#others_modal_dialog");
+			dialog.removeClass("modal_hide");
+			dialog.modal();
+		});
+	</script>
 </body>
 </html>
