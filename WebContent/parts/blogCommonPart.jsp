@@ -26,12 +26,12 @@
 		</c:forEach>
 	</ul>
 	</aside>
-	<aside class="widget">
+	<!-- <aside class="widget">
 	<h4>Text Widget</h4>
 	<p>Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum
 		nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi
 		sectetut amet fermens etrsaters tum aecenas faucib sadips amets.</p>
-	</aside>
+	</aside> -->
 	<!-- <aside class="widget ads clearfix">
 					<h4>Ads</h4>
 					<a href="#"><img src="http://placehold.it/110" alt="" /></a> <a
